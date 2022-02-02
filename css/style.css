@@ -1,0 +1,70 @@
+
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@font-face {
+	font-family: 'Ardeco';
+	src: url('../fonts/Ardeco/Ardeco.woff') format('woff');
+    font-weight: normal;
+	font-style: normal;
+    font-display: swap;
+}
+h1,a{
+    font-family: 'Ardeco';
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 3px 3px 5px; 
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.5);
+}
+p{
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 5%;
+    word-spacing: 5px;
+}
+h2{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 3px 3px 3px rgba(20, 220, 103, 0.425);
+    color: rgba(0, 0, 0, 0.507);
+}
+.first{
+    font-family: 'Nunito';
+    font-weight: 700; 
+}
+.second{
+    font-size: 18px;
+    font-family: 'Ardeco';
+    font-weight: 400;
+    
+}
+.third{
+    font-size: 16px;
+    word-spacing: 5px;
+}
+.fourth{
+    font-size: 14px;
+    line-height: 1.7;
+}
+.fifth{
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+.sixth{
+    text-decoration: underline;
+}
+.seventh{
+    text-decoration: overline;
+}
+.eighth{
+    text-decoration: line-through;
+}
+
